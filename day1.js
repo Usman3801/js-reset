@@ -39,20 +39,3 @@ let bigNumber = (num1, num2) => {
     } 
 }
 console.log(bigNumber(4, 2));
-
-//Task 3
-let numbers = [4, 9, 2, 17, 3, 8, 1];
-
-function findLargest(arr) {
-    let largest = arr[0]; // start by "memorising" the first number
-    
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] > largest) {
-            largest = arr[i]; // update memory
-        }
-    }
-    
-    return largest;
-}
-
-console.log(findLargest(numbers));

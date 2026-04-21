@@ -1,4 +1,4 @@
-/*let numbers = [1, 2, 3, 4, 5];
+let numbers = [1, 2, 3, 4, 5];
 
 //map = double every number
 let doubled = numbers.map(function(num){
@@ -10,7 +10,7 @@ let above3 = numbers.filter(function(num){
     return num > 3
 });
 console.log(above3);
-*/
+
 //Task 1
 let products = [
     { name: "Laptop", price: 1500 },

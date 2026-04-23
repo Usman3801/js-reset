@@ -25,7 +25,7 @@ getMilk(12);
 //money
 function getMilk(money) {
     let costOfMilk = 1.5;
-    let change = money - (money / costOfMilk);
+    let change = money % 1.5;
     console.log("leaveHouse");
     console.log("moveRight");
     console.log("moveRight");

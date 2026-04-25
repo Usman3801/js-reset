@@ -11,7 +11,7 @@ function fibonacci(n){
         }
         else{
             let next = a + b;
-            sequence.push(next);c
+            sequence.push(next);
             a = b;
             b = next;
         }
